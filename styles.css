@@ -12,14 +12,14 @@ body
     flex: auto;
 }
 
- .tickertape
+/*  .tickertape
 {
     background-color: rgb(54, 13, 54);
     display: flex;
     flex-flow: column wrap;
     flex: 1 1 auto;
     max-width: 1500px;
-}
+} */
  
 .header
 {
@@ -61,10 +61,12 @@ body
     align-items: center;
     justify-content: center;
     background-color: black;
-    width:70vw;
+    width: 50vw;
     margin-bottom: 20px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .section1 .welcome
@@ -72,7 +74,7 @@ body
     font-size: 20px;
     text-align: left;
     max-width: 400px;
-    min-width:auto;
+    min-width: auto;
 }
 
 .welcome .context
